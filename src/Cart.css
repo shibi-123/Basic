@@ -1,0 +1,27 @@
+.Cart{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: stretch;
+    box-shadow: 1px 2px 3px 0px rgba(0,0,0,0.5);
+    width:750px;
+    margin: 80px auto;
+    background-color:whitesmoke;
+    border-radius: 20px;
+    padding: 2.5em;
+}
+
+.Cart-title{
+    text-align: center;
+    border-bottom:1px solid grey;
+    color:grey;
+    font-size: 5em;
+    padding-bottom: 1em;
+    font-family: 'Tangerine';
+}
+
+.Cart-total{
+    text-align: right;
+    font-weight: 300;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
