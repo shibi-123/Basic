@@ -18,7 +18,6 @@ function App(){
   return (
     <div>
       <Cart items={items} />
-
       <Counter step={5}  />
       <Counter/>
       <MoodToggler/>
