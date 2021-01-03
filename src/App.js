@@ -1,23 +1,23 @@
-import logo from './logo.svg';
+import Menu from "./MenuComponent/Menu"
 import './App.css';
 
+const menuitem = [
+  { id:1, name: "Golden Chicken Surprise", price:7.5, qty:5 },
+  { id:2, name: "Mini Feast" , price:5.0 , qty:2},
+  { id:3, name: "Chicken Fillet Burger", price:1.5,qty:2},
+  { id:4, name: "Burgain Box", price:6.50, qty:1},
+  { id:5, name: "Chicken Feast", price:8.50, qty:7},
+  { id:6, name:"Family Feast", price:6.89 ,qty: 1}
+]
+
+
+
 function App() {
+  
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+     <h1 className="header"> MENU </h1>
+     <Menu menuitem= {menuitem} />
     </div>
   );
 }

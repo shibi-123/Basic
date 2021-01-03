@@ -1,0 +1,31 @@
+.menuItem{
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2em;
+    padding-bottom: 2.5em;
+}
+
+.menuItem div{
+    width:25%;
+}
+.menuItem button{
+    width:30px;
+    height: 30px;
+    background-color: #e1e8ae;
+    border: none;
+    border-radius:6px;
+    margin:0 3px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.menuItem button:disabled{
+    background-color: #f8f9fa;
+    
+}
+
+.name{
+    font-family: cursive;
+    font-size: 20px;
+}
